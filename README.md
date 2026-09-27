@@ -1,4 +1,4 @@
-# EC1418-COMMUNICATION-NETWORKS-AND-SECURITY-EXPT-1-B--BUS
+# EC1418-COMMUNICATION-NETWORKS-AND-SECURITY-EXPT-1-D--RING
 RING TOPOLOGY -CISCO
 
 # AIM 
@@ -21,20 +21,26 @@ STEP 9: Select “add simple PDU” from tool bar and place it in source and des
 
 
 # IP CONNECTIVITY TABLE
+| Device | IP Address   | Subnet Mask   | Default Gateway |
+| ------ | ------------ | ------------- | --------------- |
+| PC0    | 192.168.1.11 | 255.255.255.0 | —               |
+| PC1    | 192.168.1.12 | 255.255.255.0 | —               |
+| PC2    | 192.168.1.13 | 255.255.255.0 | —               |
+| PC3    | 192.168.1.14 | 255.255.255.0 | —               |
 
 
 
 # NETWORK DIAGRAM
-
-
-
+<img width="815" height="677" alt="image" src="https://github.com/user-attachments/assets/b7f14ce0-52d0-489c-a837-7fb66a7ee44f" />
 
 # OUTPUT
-
+| Parameter | Calculated Value |
+|---|---:|
+| Delay | 10.6 ms |
+| Average Delay | 9.4 ms |
+| Throughput | 8.5 Mbps |
+| Packet Loss | 1.9% |
 
 # RESULT
 
 Thus the computers in same network are able to communicate with each other and the communication between them were verified.
-
-
-
